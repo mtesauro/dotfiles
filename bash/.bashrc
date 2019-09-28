@@ -164,6 +164,8 @@ alias vi=nvim
 
 # Bash completion for fuzzy find
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# Bash completion for fuzzy find in .deb package
+[ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
 
 ## For Global AppSec DC demo
 alias automate='alfred -no-formatting '
