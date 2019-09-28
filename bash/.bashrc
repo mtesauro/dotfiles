@@ -164,3 +164,6 @@ alias vi=nvim
 
 # Bash completion for fuzzy find
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+## For Global AppSec DC demo
+alias automate='alfred -no-formatting '
