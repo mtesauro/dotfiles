@@ -123,7 +123,7 @@ export PATH=$PATH:/usr/local/go/bin
 # Setup Go workspace and compiled bin path
 #export GOPATH=$HOME/projects/golang
 export GOPATH=$HOME/Dropbox/golang/dev-work/golang
-export PATH=$PATH:$HOME/projects/golang/bin
+export PATH=$PATH:$HOME/Dropbox/golang/dev-work/golang/bin
 export GOROOT=/usr/local/go
 # Turn on Go modules even in GOPATH
 export GO111MODULE=on
