@@ -158,6 +158,7 @@ if [ -f '/opt/google-cloud-sdk/completion.bash.inc' ]; then . '/opt/google-cloud
 # Neovim additions
 # Use Neovim as "preferred editor"
 export VISUAL=nvim
+export EDITOR="$VISUAL"
 # Use Neovim instead of Vim or Vi
 alias vim=nvim
 alias vi=nvim
@@ -167,5 +168,5 @@ alias vi=nvim
 # Bash completion for fuzzy find in .deb package
 [ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
 
-## For Global AppSec DC demo
+## For LASCON X demo
 alias automate='alfred -no-formatting '
