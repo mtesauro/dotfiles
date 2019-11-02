@@ -162,6 +162,8 @@ export EDITOR="$VISUAL"
 # Use Neovim instead of Vim or Vi
 alias vim=nvim
 alias vi=nvim
+# Add gems path to path for nvim's ruby integration
+export PATH=$PATH:/var/lib/gems/2.5.0
 
 # Bash completion for fuzzy find
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
