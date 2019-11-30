@@ -173,3 +173,4 @@ export PATH=$PATH:/var/lib/gems/2.5.0
 ## Alias alfred to remove the verbose output
 alias automate='alfred -no-formatting '
 
+#
